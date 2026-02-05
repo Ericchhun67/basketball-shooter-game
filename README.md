@@ -54,40 +54,6 @@ Run the game
 
 bash   python main.py
 
-📁 Project Structure
-basketballshooter/
-│
-├── main.py                 # Game entry point and main loop
-│
-├── config/
-│   ├── __init__.py
-│   └── setting.py          # Game configuration and constants
-│
-├── game/
-│   ├── __init__.py
-│   ├── ball.py             # Ball physics and shooting mechanics
-│   ├── hoop.py             # Moving hoop logic
-│   ├── player.py           # Player position management
-│   ├── background.py       # Background rendering
-│   └── game_manager.py     # Core game logic and state management
-│
-├── menus/
-│   ├── main_menu.py        # Start screen menu
-│   ├── pause_menu.py       # Pause screen menu
-│   └── game_over_menu.py   # Game over screen with final score
-│
-├── utils/
-│   ├── __init__.py
-│   ├── button.py           # Reusable button component
-│   ├── draw_text.py        # Text rendering utilities
-│   └── paths.py            # Asset path management
-│
-└── assets/
-    └── images/
-        ├── ball.png        # Basketball sprite
-        ├── Hoop+backboard.png  # Hoop and backboard sprite
-        └── bg_img.png      # Background image
-
 
 ⚙️ Configuration
 You can customize game settings in config/setting.py:
